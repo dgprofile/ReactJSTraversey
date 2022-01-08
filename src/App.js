@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Header from './components/Header'
+const name = "Brad";
+const x = false
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      {name} 
+      <h1>Do you have a car? {x ? 'Yes' : 'No'}</h1>
+      <Header taskId={15} title={"Work on clearing the payments"}></Header>
     </div>
   );
 }
