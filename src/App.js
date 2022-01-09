@@ -41,7 +41,7 @@ function App() {
   return (
     <div className="container">
       {name}
-      <h1>Do you have a car? {x ? "Yes" : "No"}</h1>
+      <h1>Do you have a new car? {x ? "Yes" : "No"}</h1>
       <Softwares></Softwares>
       <Tasks realTasks={tasks} onDelete={deleteTask}></Tasks>
       {/* <Header taskId={15} title={"Work on clearing the payments"}></Header> */}
