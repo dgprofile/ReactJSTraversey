@@ -1,23 +1,20 @@
-body {
+body {}
 
+.container {}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 7px;
+    background-color: lightcoral;
+    color: black;
 }
 
-.container{
- 
+.tasks 
+{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px 0 20px;
 }
-.btn{
-  padding: 10px 20px;
-  border-radius: 7px;
-  background-color: lightcoral;
-  color: black;
-}
-
-.tasks{
-  background-color: lightblue;
-  display: flex;
-  flex-direction: row; 
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 70px 0 20px ;
-}
-
