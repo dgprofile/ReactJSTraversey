@@ -3,7 +3,7 @@ const Task = (props) =>{
     return(
         <div 
         onDoubleClick={()=>props.onDoubleClick(props.task.id)}
-        className={`${props.task.status==='completed'?'reminder':'started'}`}>
+        className={`${props.task.reminder?'reminder':'started'}`}>
             <h1>
                 {props.task.taskName} 
                  
